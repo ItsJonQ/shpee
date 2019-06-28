@@ -13,13 +13,13 @@ function App() {
 			console.log(el, updates);
 		};
 
-		const sphee = measure({
+		const shpee = measure({
 			el,
 			styles: ["width"],
 			onChange
 		});
 
-		sphee.start();
+		shpee.start();
 	}, []);
 	return (
 		<AppUI>
